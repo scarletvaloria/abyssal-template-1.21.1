@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "abyssal",
+	"version": "${version}",
+	"name": "Abyssal",
+	"description": "The sky is red, the earth is blackened, and the screams won't stop.",
+	"authors": [
+		"ScarletOnTV"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/scarletvaloria/abyssalmod"
+	},
+	"license": "MIT",
+	"icon": "assets/tutorialmod/abyssaliconv2.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.scarletontv.abyssal.Abyssal"
+		],
+		"fabric-datagen": [
+			"net.scarletontv.abyssal.AbyssalDataGenerator"
+		],
+      "client": [
+        "net.scarletontv.abyssal.AbyssalClient"
+      ]
+	},
+	"mixins": [
+		"abyssal.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

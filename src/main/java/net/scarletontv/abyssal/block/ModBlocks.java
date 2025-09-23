@@ -1,11 +1,9 @@
 package net.scarletontv.abyssal.block;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -14,11 +12,27 @@ import net.scarletontv.abyssal.Abyssal;
 
 public class ModBlocks {
     public static final Block EMPTY_PLANKS = registerBlock("empty_planks",
-            new Block(AbstractBlock.Settings.create().strength(2f)
-                    .requiresTool().sounds(BlockSoundGroup.WOOD)));
+            new Block(AbstractBlock.Settings.create().strength(0.75f)
+                    .sounds(BlockSoundGroup.WOOD)));
+
+    public static final Block EMPTY_WOOD = registerBlock("empty_wood",
+            new Block(AbstractBlock.Settings.create().strength(0.75f)
+                    .sounds(BlockSoundGroup.WOOD)));
+
+    public static final Block EMPTY_LOG = registerBlock("empty_log",
+            new Block(AbstractBlock.Settings.create().strength(0.75f)
+                    .sounds(BlockSoundGroup.WOOD)));
+
+    public static final Block EMPTY_LEAVES = registerBlock("empty_leaves",
+            new Block(AbstractBlock.Settings.create().strength(0.1f)
+                    .requiresTool().sounds(BlockSoundGroup.AZALEA_LEAVES)));
 
     public static final Block EMPTINESS = registerBlock("emptiness",
-            new Block(AbstractBlock.Settings.create().strength(5f)
+            new Block(AbstractBlock.Settings.create().strength(-1)
+                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+
+    public static final Block ABYSSAL_FRACTURE = registerBlock("abyssal_fracture",
+            new Block(AbstractBlock.Settings.create().strength(-1)
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
 
@@ -35,9 +49,5 @@ public class ModBlocks {
     public static void registerModBlocks() {
         Abyssal.LOGGER.info("Registering Mod Blocks for" + Abyssal.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.EMPTY_PLANKS);
-            entries.add(ModBlocks.EMPTINESS);
-        });
     }
 }

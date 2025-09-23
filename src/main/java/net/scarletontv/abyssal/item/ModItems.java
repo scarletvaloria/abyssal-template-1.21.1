@@ -9,7 +9,7 @@ import net.minecraft.util.Identifier;
 import net.scarletontv.abyssal.Abyssal;
 
 public class ModItems {
-public static final Item HOLLOW_FRUIT = registerItem("hollow_fruit", new Item(new Item.Settings()));
+public static final Item HOLLOW_FRUIT = registerItem("hollow_fruit", new Item(new Item.Settings().food(ModFoodComponents.HOLLOW_FRUIT)));
 public static final Item VOID_BLOOD_BUCKET = registerItem("void_blood_bucket", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
@@ -19,9 +19,5 @@ public static final Item VOID_BLOOD_BUCKET = registerItem("void_blood_bucket", n
     public static void registerModItems() {
         Abyssal.LOGGER.info("Registering Mod Items for " + Abyssal.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
-            entries.add(HOLLOW_FRUIT);
-            entries.add(VOID_BLOOD_BUCKET);
-        });
     }
 }
