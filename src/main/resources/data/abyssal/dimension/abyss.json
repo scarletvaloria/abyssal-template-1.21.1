@@ -1,0 +1,11 @@
+{
+  "type": "abyssal:abyss_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "abyssal:abyss",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "abyssal:empty_plains"
+    }
+  }
+}

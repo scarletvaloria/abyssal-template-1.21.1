@@ -1,0 +1,38 @@
+{
+  "carvers": {
+    "air": [
+      "minecraft:nether_cave"
+    ]
+  },
+  "downfall": 0,
+  "effects": {
+    "fog_color": 8986399,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2,
+      "sound": "minecraft:ambient.nether_wastes.mood",
+      "tick_delay": 6000
+    },
+    "sky_color": 15728640,
+    "water_color": 7210759,
+    "water_fog_color": 7210759
+  },
+  "features": [
+    "abyssal:fracture",
+    "abyssal:empty_tree",
+    "minecraft:warped_fungus"
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 2
+}

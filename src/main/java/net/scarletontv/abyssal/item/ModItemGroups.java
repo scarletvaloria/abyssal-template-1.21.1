@@ -17,13 +17,22 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.abyssal.abyssal_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.HOLLOW_FRUIT);
-                        entries.add(ModItems.VOID_BLOOD_BUCKET);
+                        entries.add(ModItems.DUSKBLADE);
                         entries.add(ModBlocks.ABYSSAL_FRACTURE);
                         entries.add(ModBlocks.EMPTY_PLANKS);
                         entries.add(ModBlocks.EMPTINESS);
-                        entries.add(ModBlocks.EMPTY_WOOD);
                         entries.add(ModBlocks.EMPTY_LEAVES);
                         entries.add(ModBlocks.EMPTY_LOG);
+                        entries.add(ModBlocks.EMPTY_DOOR);
+                        entries.add(ModBlocks.EMPTY_BUTTON);
+                        entries.add(ModBlocks.EMPTY_FENCE);
+                        entries.add(ModBlocks.EMPTY_FENCE_GATE);
+                        entries.add(ModBlocks.EMPTY_PRESSURE_PLATE);
+                        entries.add(ModBlocks.EMPTY_SLAB);
+                        entries.add(ModBlocks.EMPTY_STAIRS);
+                        entries.add(ModBlocks.EMPTY_TRAPDOOR);
+                        entries.add(ModBlocks.STRIPPED_EMPTY_LOG);
+
                     }).build());
 
 

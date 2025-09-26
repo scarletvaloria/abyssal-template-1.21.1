@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "abyssal:block/empty_slab"
+    },
+    "type=double": {
+      "model": "abyssal:block/empty_planks"
+    },
+    "type=top": {
+      "model": "abyssal:block/empty_slab_top"
+    }
+  }
+}

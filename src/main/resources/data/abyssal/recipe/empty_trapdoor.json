@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_trapdoor",
+  "key": {
+    "#": {
+      "item": "abyssal:empty_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "abyssal:empty_trapdoor"
+  }
+}

@@ -1,7 +1,14 @@
 {
   "values": [
-    "abyssal:empty_wood",
     "abyssal:empty_planks",
-    "abyssal:empty_log"
+    "abyssal:empty_log",
+    "abyssal:empty_stairs",
+    "abyssal:empty_button",
+    "abyssal:empty_pressure_plate",
+    "abyssal:empty_slab",
+    "abyssal:empty_fence",
+    "abyssal:empty_fence_gate",
+    "abyssal:empty_door",
+    "abyssal:empty_trapdoor"
   ]
 }

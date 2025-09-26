@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "abyssal:block/empty_planks",
+    "side": "abyssal:block/empty_planks",
+    "top": "abyssal:block/empty_planks"
+  }
+}
