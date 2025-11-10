@@ -12,7 +12,7 @@ import net.scarletontv.abyssal.block.ModBlocks;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    ABYSSAL(ModBlocks.ABYSSAL_FRACTURE, 666666, 9.0F, 4.0F, 0, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
+    ABYSSAL(ModBlocks.EMPTINESS, 666666, 9.0F, 4.0F, 0, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
 
     private final Block inverseTag;
     private final int itemDurability;

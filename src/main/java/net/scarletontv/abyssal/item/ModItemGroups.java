@@ -18,7 +18,6 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.HOLLOW_FRUIT);
                         entries.add(ModItems.DUSKBLADE);
-                        entries.add(ModBlocks.ABYSSAL_FRACTURE);
                         entries.add(ModBlocks.EMPTY_PLANKS);
                         entries.add(ModBlocks.EMPTINESS);
                         entries.add(ModBlocks.EMPTY_LEAVES);
@@ -32,6 +31,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.EMPTY_STAIRS);
                         entries.add(ModBlocks.EMPTY_TRAPDOOR);
                         entries.add(ModBlocks.STRIPPED_EMPTY_LOG);
+                        entries.add(ModBlocks.ABYSSAL_FRACTURE);
+                        entries.add(ModItems.ULTRASONIC_FAITH_DISC);
+
 
                     }).build());
 

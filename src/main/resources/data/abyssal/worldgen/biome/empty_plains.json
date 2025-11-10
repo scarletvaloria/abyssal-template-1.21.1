@@ -17,11 +17,7 @@
     "water_color": 7210759,
     "water_fog_color": 7210759
   },
-  "features": [
-    "abyssal:fracture",
-    "abyssal:empty_tree",
-    "minecraft:warped_fungus"
-  ],
+  "features": [],
   "has_precipitation": false,
   "spawn_costs": {},
   "spawners": {

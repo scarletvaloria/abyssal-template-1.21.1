@@ -1,0 +1,10 @@
+{
+  "ultrasonic_faith": {
+    "sounds": [
+      {
+        "name": "abyssal:ultrasonic_faith",
+        "stream": "true"
+      }
+    ]
+  }
+}

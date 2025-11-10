@@ -49,7 +49,7 @@ dependencies {
     // AcornLib
     modImplementation "maven.modrinth:acornlib:${project.acornlib_version}"
 
-// Config
+    // Config
     modApi ("com.terraformersmc:modmenu:${project.modmenu_version}")
     modImplementation include ("maven.modrinth:midnightlib:${project.midnightlib_version}")
 	

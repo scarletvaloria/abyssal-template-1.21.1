@@ -61,8 +61,7 @@ public class ModBlocks {
                     .requiresTool().sounds(BlockSoundGroup.STONE)));
 
     public static final Block ABYSSAL_FRACTURE = registerBlock("abyssal_fracture",
-            new Block(AbstractBlock.Settings.create().strength(-1)
-                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+            new Block(AbstractBlock.Settings.create().strength(-1).requiresTool().sounds(BlockSoundGroup.STONE)));
 
 
 

@@ -12,7 +12,7 @@
 		"sources": "https://github.com/scarletvaloria/abyssalmod"
 	},
 	"license": "MIT",
-	"icon": "assets/tutorialmod/abyssaliconv2.png",
+	"icon": "assets/abyssal/abyssaliconv2.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
