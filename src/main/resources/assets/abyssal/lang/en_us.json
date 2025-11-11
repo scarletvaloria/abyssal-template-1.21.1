@@ -1,0 +1,37 @@
+{
+  "item.abyssal.hollow_fruit": "Hollow Fruit",
+  "item.abyssal.void_blood_bucket": "Void Blood Bucket",
+  "item.abyssal.duskblade": "Duskblade",
+  "item.abyssal.ultrasonic_faith_music_disc": "Music Disc",
+  "item.abyssal.ultrasonic_faith_music_disc.desc": "Phill C. - ULTRASONIC FAITH",
+  "tooltip.abyssal.duskblade.tooltip": "Forged from the depths. Used to bring those struck down to it.",
+  "tooltip.abyssal.abyssal_eye.tooltip": "A crack in the empty dimension.",
+
+  "block.abyssal.empty_planks": "Empty Planks",
+  "block.abyssal.emptiness": "Emptiness",
+  "block.abyssal.empty_wood": "Empty Wood",
+  "block.abyssal.empty_leaves": "Empty Leaves",
+  "block.abyssal.empty_log": "Empty Log",
+  "block.abyssal.empty_door": "Empty Door",
+  "block.abyssal.empty_trapdoor": "Empty Trapdoor",
+  "block.abyssal.empty_fence": "Empty Fence",
+  "block.abyssal.empty_fence_gate": "Empty Fence Gate",
+  "block.abyssal.empty_stairs": "Empty Stairs",
+  "block.abyssal.empty_button": "Empty Button",
+  "block.abyssal.empty_slab": "Empty Slab",
+  "block.abyssal.empty_pressure_plate": "Empty Pressure Plate",
+  "block.abyssal.empty_sapling": "Empty Sapling",
+  "block.abyssal.stripped_empty_log": "Stripped Empty Log",
+  "block.abyssal.abyssal_fracture": "Abyssal Fracture",
+
+  "death.attack.abyss_damage": "%1$s was sent to §4the Abyss",
+  "death.attack.abyss_damage.player": "%1$s was sent to §4the Abyss",
+  "death.attack.orchid_damage": "%1$s was disemboweled by §4orchid",
+  "death.attack.orchid_damage.player": "%1$s was disemboweled by §4orchid",
+
+  "biome.abyssal.empty_plains": "Empty Plains",
+
+  "subtitles.abyssal.ultrasonic_faith": "will you wake up tomorrow?",
+
+  "itemgroup.abyssal.abyssal_items": "§4Abyssal"
+}
